@@ -14,19 +14,20 @@ export const metadata: Metadata = {
   },
   
   description: "Veda360 is a premier IT services agency specializing in custom web development, Next.js solutions, mobile apps, and brand identity. Based in Surat, delivering global digital excellence.",
-  
-  // FIXED: Explicitly defined icons for Google Search indexing
+
+  // FIXED: Explicitly defined icons to satisfy Google's 48x48px requirement
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: 'any' },
       { url: '/icon.png', type: 'image/png', sizes: '32x32' },
-      { url: '/apple-icon.png', type: 'image/png', sizes: '180x180' },
+      { url: '/icon-48.png', type: 'image/png', sizes: '48x48' },
+      { url: '/icon-192.png', type: 'image/png', sizes: '192x192' },
     ],
     apple: [
       { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
     ],
   },
-
+  
   keywords: [
     "IT Services Surat", "Web Development Agency", "Next.js Experts", 
     "Digital Transformation Services", "Custom Software Development", 
