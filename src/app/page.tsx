@@ -292,7 +292,7 @@ const HomeContactTeaser = () => {
 export default function VedaHome() {
   return (
     /* Changed to pt-24 so the content starts below your new fixed Navbar */
-    <main className="min-h-screen w-full bg-[#0A0A0A] text-white relative flex flex-col font-sans overflow-x-clip pt-10 md:pt-0">
+    <main className="min-h-screen w-full bg-[#0A0A0A] text-white relative flex flex-col font-sans overflow-x-clip pt-24 md:pt-20">
       
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-[-10%] right-[-10%] w-[600px] h-[600px] bg-amber-500/5 rounded-full blur-[120px]" />
