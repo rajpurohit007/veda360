@@ -102,11 +102,6 @@ export default function Navbar() {
                   </p>
                 </Link>
               ))}
-              <Link href="/contact" onClick={() => setIsOpen(false)}>
-                <p className={isActive("/contact") ? "text-amber-500" : "text-white"}>
-                  Contact
-                </p>
-              </Link>
             </div>
 
             <div className="mt-auto flex flex-col gap-4">
