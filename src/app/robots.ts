@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://veda360.org/sitemap.xml',
+    sitemap: 'https://www.veda360.org/sitemap.xml', // Added www to match your domain
   }
 }

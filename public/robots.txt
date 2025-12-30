@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://veda360.org
-
-# Sitemaps
-Sitemap: https://veda360.org/sitemap.xml
