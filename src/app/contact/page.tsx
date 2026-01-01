@@ -38,13 +38,13 @@ export default function ContactPage() {
             initial={{ opacity: 0, x: -30 }}
             animate={{ opacity: 1, x: 0 }}
           >
-            <span className="text-[10px] uppercase tracking-[0.5em] text-amber-500 font-bold">Connect With Us</span>
+            <span className="text-[10px] uppercase tracking-[0.5em] text-amber-500 font-bold">Say Hello</span>
             <h1 className="text-5xl md:text-8xl font-serif mt-6 leading-tight">
-              Let's Build <br />
-              <span className="italic text-amber-500">Together.</span>
+              Let's Start a <br />
+              <span className="italic text-amber-500">Conversation.</span>
             </h1>
             <p className="text-gray-400 text-lg mt-8 leading-relaxed max-w-md">
-              Ready to start your <strong>digital transformation</strong>? Reach out via your preferred method and our <strong>expert IT consultants</strong> will get back to you within 24 hours.
+              Ready to grow your <strong>business online</strong>? Pick whichever way is easiest for you to reach out. We promise to <strong>answer your questions</strong> within 24 hours.
             </p>
 
             <div className="mt-12 space-y-8">
@@ -78,16 +78,16 @@ export default function ContactPage() {
             <div className="w-20 h-20 bg-amber-500/10 rounded-full flex items-center justify-center mb-8">
               <Phone className="text-amber-500" size={32} />
             </div>
-            <h2 className="text-3xl font-serif mb-6">Need an immediate <strong>IT consultation</strong>?</h2>
+            <h2 className="text-3xl font-serif mb-6">Want to talk to someone <strong>right now</strong>?</h2>
             <p className="text-gray-500 mb-10 max-w-xs leading-relaxed">
-              Skip the forms. Click the button below to start a direct <strong>WhatsApp conversation</strong> with our lead strategist in Surat.
+              No need to fill out long forms. Just click the button below to start a <strong>WhatsApp chat</strong> with us in Surat.
             </p>
             <a 
               href="https://wa.me/919099337333"
               aria-label="Start WhatsApp Chat with Veda360"
               className="w-full py-5 bg-amber-500 text-black rounded-full font-bold uppercase tracking-[0.2em] text-xs hover:bg-white transition-all shadow-[0_0_30px_rgba(212,175,55,0.1)]"
             >
-              Start Chat Now
+              Click Here to Chat
             </a>
           </motion.div>
         </div>

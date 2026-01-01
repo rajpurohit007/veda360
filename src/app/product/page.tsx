@@ -13,16 +13,16 @@ import PadhaiOnImage from '../../../public/PadhaiOnUI.png';
 const projects = [
   {
     title: "Siya Laser Tech",
-    category: "Static Branding Website",
-    description: "A professional landing page and brand showcase for precision laser technology solutions. Optimized for high-speed performance and search visibility.",
+    category: "Business Website",
+    description: "A clean and professional website built to show off laser technology products. It is made to load very fast and be easy for customers to find on Google.",
     image: SiyaImage, 
     link: "https://www.siyalasertech.com",
     icon: <Globe size={20} aria-hidden="true" />
   },
   {
     title: "PadhaiOn",
-    category: "Dynamic Institution Searching Platform",
-    description: "A comprehensive digital ecosystem designed for searching and connecting with educational institutions. Built with Next.js for maximum scalability.",
+    category: "School Search Platform",
+    description: "A helpful website where people can search for and find the right schools or colleges. It is built to be very strong and handle many visitors at once.",
     image: PadhaiOnImage,
     link: "https://www.padhaion.com",
     icon: <Layout size={20} aria-hidden="true" />
@@ -42,20 +42,20 @@ export default function ProductGalleryPage() {
           className="max-w-4xl"
         >
           <div className="flex items-center gap-4 mb-6">
-            <span className="text-[10px] uppercase tracking-[0.5em] text-amber-500 font-bold">Portfolio Archives</span>
+            <span className="text-amber-500 text-[10px] uppercase tracking-[0.5em] font-bold">Our Work</span>
             <div className="h-[1px] w-12 bg-white/20" aria-hidden="true" />
             <span className="text-[10px] text-gray-500 font-mono uppercase tracking-widest">
-              VOL. 01 — {projects.length} Masterpieces
+              Gallery — {projects.length} Examples
             </span>
           </div>
           
           <h1 id="portfolio-heading" className="text-5xl md:text-8xl font-serif leading-tight">
-            Our Digital <br />
-            <span className="italic text-amber-500">Masterpieces.</span>
+            Our Favorite <br />
+            <span className="italic text-amber-500">Creations.</span>
           </h1>
           <p className="text-gray-400 text-lg md:text-xl mt-8 leading-relaxed max-w-2xl font-light">
-            A curated selection of <strong>custom web development projects</strong> where ancient wisdom meets cutting-edge engineering. 
-            Explore our live deployments and technical case studies.
+            Here are some of the <strong>websites we have built</strong> for our friends and partners. 
+            We take modern technology and use it to build things that are simple, useful, and beautiful.
           </p>
         </motion.div>
       </section>
@@ -74,7 +74,7 @@ export default function ProductGalleryPage() {
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label={`Visit live website for ${project.title}`}
+                aria-label={`View the ${project.title} website`}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-100px" }}
@@ -89,7 +89,7 @@ export default function ProductGalleryPage() {
 
                   <img 
                     src={imageSrc} 
-                    alt={`Preview of ${project.title} - ${project.category} by Veda360`} 
+                    alt={`A look at the ${project.title} website`} 
                     className="w-full h-full object-contain p-4 md:p-8 grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-[1.02] transition-all duration-700 ease-in-out"
                   />
                   
