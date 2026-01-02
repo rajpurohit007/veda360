@@ -6,7 +6,10 @@ const geistSans = Geist({ subsets: ["latin"], variable: "--font-geist-sans" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://veda360.org'),
+ metadataBase: new URL('https://www.veda360.org'), 
+  alternates: {
+    canonical: 'https://www.veda360.org',
+  },
   
   title: {
     default: "Veda360 | Expert IT Services & Digital Transformation Agency",
