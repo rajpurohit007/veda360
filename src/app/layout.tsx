@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Veda360 | Holistic IT Services & Digital Solutions",
     description: "Bridging Ancient Wisdom and Future Tech. Experience the 360-degree digital evolution.",
-    url: "https://veda360.org",
+    url: "https://www.veda360.org",
     siteName: "Veda360",
     images: [
       {
